@@ -1,0 +1,23 @@
+aside.logo{
+    background-color: var(--bg-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside.logo img{
+    padding: 0px 15px;
+    width: 100%;
+    filter: drop-shadow(0 1px 5px rgb(255, 255, 255));
+    transition: all 0.2s;
+}
+
+aside.logo img:hover{
+    filter: drop-shadow(0 1px 5px rgb(0, 250, 217));
+}
+
+@media(max-width: 576px){
+    aside.logo img{
+        width: 350px;
+    }
+}
